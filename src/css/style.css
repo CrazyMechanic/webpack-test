@@ -1,0 +1,30 @@
+@import '~normalize.css';
+@import './fonts.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.container {
+  padding: 20px 40px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.logo {
+  background-image: url(../assets/icon-square-big.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.code {
+  color: darkred;
+}
